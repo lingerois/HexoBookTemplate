@@ -5,6 +5,6 @@ db.json
 public/
 .deploy*/
 docs/
-/node_modules/
+node_modules/
 
 source/_data/book.yml
