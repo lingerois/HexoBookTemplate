@@ -92,3 +92,22 @@ One could modify `theme\book\source\ccs\book.scss` to change or add color:
 }
 ```
 
+you can use by
+
+```
+{% admonition <Type:red,gray...> <tytle> %}
+Hello this is just a test.
+This is an another line.
+{% endadmonition %}
+```
+
+which will turn into something like this:
+
+```
+<div class="admonition danger">
+  <p class="admonition-title">Don't do this</p>
+  <p>Hello this is just a test.</p>
+  <p>This is an another line.</p>
+</div>
+```
+
