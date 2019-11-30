@@ -49,7 +49,7 @@ Repo link: https://github.com/hinastory/hexo-tag-details
 
 Run `npm install --save hexo-tag-admonition`
 
-Add these to `theme\book\source\ccs\book.scss`
+One could modify `theme\book\source\ccs\book.scss` to change or add color:
 
 ```scss
 .admonition {
@@ -92,4 +92,3 @@ Add these to `theme\book\source\ccs\book.scss`
 }
 ```
 
-You can self-define the color you want.
