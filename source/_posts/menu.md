@@ -25,3 +25,4 @@
   * [繁體中文測試](/bookname/demo/tc-demo)
   * [简体中文测试](/bookname/demo/sc-demo)
   * [detail-demo](/bookname/demo/detail-demo)
+  * [admonition-demo](/bookname/demo/admonition-demo)

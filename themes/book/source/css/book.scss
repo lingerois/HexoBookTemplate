@@ -59,6 +59,46 @@ img {
   text-align: left;
 }
 
+
+.admonition {
+	padding: 0 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: left;
+}
+
+.admonition-title {
+	font-weight: bold;
+	text-align: left;
+}
+
+.admonition.blue,
+.admonition.info,
+.admonition.tips {
+	background-color: #67b2e4;
+	border-color: #3498db;
+}
+
+.admonition.orange,
+.admonition.warn,
+.admonition.important {
+	background-color: #ec9e59;
+	border-color: #e67e22;
+}
+
+.admonition.red,
+.admonition.critical {
+	background-color: #ed796d;
+	border-color: #e74c3c;
+}
+
+.admonition.gray,
+.admonition.critical {
+	background-color: #dddddd;
+	border-color: #999999;
+}
+
 @import '_partial/navbar';
 @import '_partial/toc';
 @import '_partial/sidebar';

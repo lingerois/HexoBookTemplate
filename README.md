@@ -13,11 +13,10 @@ This template is based on the theme [hexo-theme-book](https://github.com/kaiiiz/
 4. Run `npm uninstall hexo-renderer-marked --save`
 5. Run `npm install hexo-renderer-markdown-it --save`
 6. Run `npm install @iktakahiro/markdown-it-katex`
-7. Run `npm install hexo-tag-details --save` to use detail tag.
-
-
 
 ## Detail Tag
+
+Run `npm install hexo-tag-details --save` to use detail tag.
 
 Use like
 
@@ -46,3 +45,51 @@ it generates HTML:
 
 Repo link: https://github.com/hinastory/hexo-tag-details
 
+# Admonition Usage
+
+Run `npm install --save hexo-tag-admonition`
+
+Add these to `theme\book\book.scss`
+
+```scss
+.admonition {
+	padding: 0 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	text-align: left;
+}
+
+.admonition-title {
+	font-weight: bold;
+	text-align: left;
+}
+
+.admonition.blue,
+.admonition.info,
+.admonition.tips {
+	background-color: #67b2e4;
+	border-color: #3498db;
+}
+
+.admonition.orange,
+.admonition.warn,
+.admonition.important {
+	background-color: #ec9e59;
+	border-color: #e67e22;
+}
+
+.admonition.red,
+.admonition.critical {
+	background-color: #ed796d;
+	border-color: #e74c3c;
+}
+
+.admonition.gray,
+.admonition.critical {
+	background-color: #dddddd;
+	border-color: #999999;
+}
+```
+
+You can self-define the color you want.
