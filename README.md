@@ -49,7 +49,7 @@ Repo link: https://github.com/hinastory/hexo-tag-details
 
 Run `npm install --save hexo-tag-admonition`
 
-Add these to `theme\book\book.scss`
+Add these to `theme\book\source\ccs\book.scss`
 
 ```scss
 .admonition {
