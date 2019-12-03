@@ -7,12 +7,13 @@ This template is based on the theme [hexo-theme-book](https://github.com/kaiiiz/
 
 # Usage
 
-1. Clone this repo to local
-2. Run `npm install hexo`
-3. Run `npm install hexo-renderer-scss --save`
-4. Run `npm uninstall hexo-renderer-marked --save`
-5. Run `npm install hexo-renderer-markdown-it --save`
-6. Run `npm install @iktakahiro/markdown-it-katex`
+1. Install Hexo and Nodejs
+2. Clone this repo to local and switch to its root path
+3. Run `npm install hexo`
+4. Run `npm install hexo-renderer-scss --save`
+5. Run `npm uninstall hexo-renderer-marked --save`
+6. Run `npm install hexo-renderer-markdown-it --save`
+7. Run `npm install @iktakahiro/markdown-it-katex`
 
 ## Detail Tag
 
