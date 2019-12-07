@@ -26,3 +26,4 @@
   * [简体中文测试](/bookname/demo/sc-demo)
   * [detail-demo](/bookname/demo/detail-demo)
   * [admonition-demo](/bookname/demo/admonition-demo)
+  * [bootstrap-demo](/bookname/demo/bootstrap-demo)
