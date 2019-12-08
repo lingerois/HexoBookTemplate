@@ -112,3 +112,9 @@ which will turn into something like this:
 </div>
 ```
 
+# Bootstrap
+
+1. Run `npm install hexo-tag-bootstrap`
+1. Use the files in `hexo-tag-bootstrap.7z` to substitute the files in `node_modules`
+1. Read the pdf file in the root
+

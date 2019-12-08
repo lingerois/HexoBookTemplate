@@ -19,6 +19,7 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
     "hexo-tag-admonition": "^1.2.0",
+    "hexo-tag-bootstrap": "^0.2.0",
     "hexo-tag-details": "^0.1.7",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-checkbox": "^1.1.0",
